@@ -1,5 +1,5 @@
 <?php
-$mail = $_POST["mail"]; //
+$mail = $_POST["mail"]; // out of use.
 
 header('content-type: application/json; charset=utf-8');
 echo '{"type": 0, "message": "success"}';
